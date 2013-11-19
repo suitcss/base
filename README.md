@@ -13,7 +13,7 @@ Read more about [SUIT's design principles](https://github.com/necolas/suit/).
 
 ## Usage
 
-SUIT base depends on normalize.css and should be include before any other suit packages:
+SUIT base depends on normalize.css and should be included before any other suit packages:
 
 ```css
 @import "/bower_components/normalize-css/normalize.css";
