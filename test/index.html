@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>SUIT base</title>
+<title>SUIT CSS base</title>
 <meta name="viewport" content="initial-scale=1, width=device-width">
-<link rel="stylesheet" href="build/build.css">
+<link rel="stylesheet" href="../build/test.css">
 <style>
   .Test-run {
     line-height: 1;
@@ -98,6 +98,20 @@
       <li>ol item 3</li>
       <li>ol item 4</li>
     </ol>
+  </div>
+
+  <h2 class="Test-describe">button</h2>
+  <h3 class="Test-it">has no background, border, or padding</h3>
+  <div class="Test-run">
+    <button class="dev-highlight" type="button">
+      Button content
+    </button>
+  </div>
+  <h3 class="Test-it">has focus styles (in Firefox and IE)</h3>
+  <div class="Test-run">
+    <button type="button">
+      Button content
+    </button>
   </div>
 
   <h2 class="Test-describe">fieldset</h2>
