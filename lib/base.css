@@ -13,6 +13,7 @@ html {
 }
 
 *,
+input[type="search"],
 *::before,
 *::after {
   box-sizing: inherit;
