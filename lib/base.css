@@ -1,34 +1,27 @@
-:root {
-  --background-base: inherit;
-  --color-base: inherit;
-  --font-base: 16px sans-serif;
-  --link-color-base: #069;
-  --link-color-hover-base: var(--link-color-base);
-}
-
 /**
  * A thin layer on top of normalize.css that provides a starting point more
- * suitable for web applications. Removes the default spacing and border for
- * appropriate elements.
+ * suitable for web applications.
+ */
+
+/**
+ * Prevent margin and border from affecting element width.
+ * https://goo.gl/pYtbK7
+ *
  */
 
 html {
-  background: var(--background-base);
-  color: var(--color-base);
-  font: var(--font-base);
+  box-sizing: border-box;
 }
 
-a {
-  color: var(--link-color-base);
-  text-decoration: none;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-a:hover,
-a:focus,
-a:active {
-  color: var(--link-color-hover-base);
-  text-decoration: underline;
-}
+/**
+ * Removes the default spacing and border for appropriate elements.
+ */
 
 blockquote,
 dl,
@@ -79,7 +72,7 @@ ul {
 }
 
 /**
- * Suppress the focus outline on links that cannot be accessed via keyboard.
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
  * This prevents an unwanted focus outline from appearing around elements that
  * might still respond to pointer events.
  */

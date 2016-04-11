@@ -1,8 +1,9 @@
 # SUIT CSS base
 
+[![Build Status](https://travis-ci.org/suitcss/base.svg?branch=master)](https://travis-ci.org/suitcss/base)
+
 Base styles for web applications. Provides a thin layer on top of
-[Normalize.css](https://github.com/necolas/normalize.css). Removes default
-margins and exposes variables for theming.
+[Normalize.css](https://github.com/necolas/normalize.css).
 
 Read more about how to use [SUIT CSS](https://github.com/suitcss/suit/).
 
@@ -10,17 +11,7 @@ Read more about how to use [SUIT CSS](https://github.com/suitcss/suit/).
 
 * [npm](http://npmjs.org/): `npm install suitcss-base`
 * [Component(1)](http://github.com/component/component): `component install suitcss/base`
-* [Bower](http://bower.io/): `bower install suit-base`
 * [Download](https://github.com/suitcss/base/releases)
-
-## Configurable variables
-
-* `--background-base`: the application background style.
-* `--color-base`: the root text color.
-* `--font-base`: the root font style.
-* `--link-color-base`: the root link color.
-* `--link-color-hover-base`: the root link interaction (`:hover`, `:focus`,
-  `:active`) color.
 
 ## Testing
 
@@ -34,6 +25,12 @@ To generate a build:
 
 ```
 npm run build
+```
+
+To lint code with [postcss-bem-linter](https://github.com/postcss/postcss-bem-linter) and [stylelint](http://stylelint.io/)
+
+```
+npm run lint
 ```
 
 To generate the testing build.
@@ -50,4 +47,4 @@ Basic visual tests are in `test/index.html`.
 * Firefox
 * Safari
 * Opera
-* Internet Explorer 8+
+* Internet Explorer 9+
