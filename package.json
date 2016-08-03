@@ -9,12 +9,12 @@
     "lib"
   ],
   "dependencies": {
-    "normalize.css": "^4.0.0"
+    "normalize.css": "^4.2.0"
   },
   "devDependencies": {
-    "stylelint-config-suitcss": "^5.0.0",
+    "stylelint-config-suitcss": "^8.0.0",
     "suitcss-components-test": "*",
-    "suitcss-preprocessor": "^1.0.2"
+    "suitcss-preprocessor": "^2.0.0"
   },
   "scripts": {
     "build": "npm run setup && npm run preprocess",
