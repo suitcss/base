@@ -47,6 +47,15 @@ button {
 }
 
 /**
+ * Treat links like other elements and inherit color and text-decoration
+ */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/**
  * Work around a Firefox/IE bug where the transparent `button` background
  * results in a loss of the default `button` focus styles.
  */
