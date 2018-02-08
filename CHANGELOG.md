@@ -1,5 +1,9 @@
 ### HEAD
 
+### 4.1.0 (February 8, 2018)
+
+* Remove !important statement to provide compatibility with Google AMP
+
 ### 4.0.0 (September 25th, 2017)
 
 * Update normalize to `^7.0.0`
